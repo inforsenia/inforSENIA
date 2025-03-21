@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, #1e1e1e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*header {
+   display: flex;
+   align-items: center;
+   gap: 10px; /* Espai entre el logo i el text 
+   padding: 10px;
+}*/
+
+
+.container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    max-width: 800px;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #00ccff;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    color: #00b3e6;
+    font-weight: 300;
+}
+
+.day {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00ccff;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background: #252525;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    transition: background 0.3s ease, transform 0.2s ease;
+
+}
+
+li:hover {
+    background: #00ccff;
+    color: black;
+    transform: translateX(5px);
+}
+
+li i {
+    margin-right: 10px;
+    color: #00ccff;
+}
+
+
+
+.tema {
+    flex: 1; /* Ocupa tot l'espai disponible */
+}
+
+.ponent {
+    color: #bbb;
+    font-style: italic;
+    margin-left: 20px; /* Espai entre el text i el ponent */
+}
+
+
+
+.cta {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background: #00ccff;
+    color: black;
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta:hover, .cta:focus {
+    background: #0099cc;
+    transform: scale(1.05);
+    outline: 3px solid white;
+}
+
+.location {
+    margin-top: 15px;
+    font-style: italic;
+    color: #bbb;
+    font-size: 1.1em;
+}
+
+.confirmat {
+    color: red;
+    font-weight: bold;
+    margin-left: auto;
+}
+
