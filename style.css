@@ -127,3 +127,11 @@ li i {
     margin-left: auto;
 }
 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Reduir la mida del títol en pantalles xicotetes */
+    }
+    .container {
+        padding: 10px; /* Reduir el padding en pantalles xicotetes */
+    }
+}
