@@ -22,6 +22,7 @@ body {
     max-width: 800px;
     margin: auto;
     transition: transform 0.3s ease;
+ 
 }
 
 .container:hover {
@@ -64,9 +65,10 @@ li {
     padding: 12px;
     border-radius: 5px;
     display: flex;
-    align-items: center;
+    align-items: start;
     font-size: 1.1em;
     transition: background 0.3s ease, transform 0.2s ease;
+    text-align: justify;
 
 }
 
@@ -129,9 +131,28 @@ li i {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 2em; /* Reduir la mida del títol en pantalles xicotetes */
+        font-size: 1em; /* Reduir la mida del títol en pantalles xicotetes */
     }
     .container {
-        padding: 10px; /* Reduir el padding en pantalles xicotetes */
+        padding: 5px; /* Reduir el padding en pantalles xicotetes */
     }
+}
+
+.ficha-link {
+    color: #00b3e6; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 0.9em; /* Tamaño de la letra */
+    margin-left: 10px; /* Espacio entre el tema y el enlace */
+}
+
+.ficha-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+.objetivo, .resumen, .nivel, .conocimientos, .audiencia, .duracion, .infraestructura {
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica el texto */
+}
+.tema {
+    /*flex: 1; /* Ocupa todo el espacio disponible */
+    white-space: pre; /* Respeta los espacios en blanco */
 }
