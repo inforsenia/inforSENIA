@@ -192,3 +192,9 @@ li i {
 .location-label {
     cursor: pointer;
 }
+.small-logo {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    display: block; /* Elimina el espacio sobrante */
+    margin: 0 auto; /* Centra la imagen */
+}
