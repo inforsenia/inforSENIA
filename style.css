@@ -148,11 +148,47 @@ li i {
 .ficha-link:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón */
 }
-.objetivo, .resumen, .nivel, .conocimientos, .audiencia, .duracion, .infraestructura {
+.objetivo, .resumen, .nivel, .conocimientos, .audiencia, .duracion, .infraestructura, .mini-bio {
     margin-bottom: 10px;
     text-align: justify; /* Justifica el texto */
 }
-.tema {
-    /*flex: 1; /* Ocupa todo el espacio disponible */
-    white-space: pre; /* Respeta los espacios en blanco */
+
+
+.volver-inicio {
+    margin-top: 20px; /* Espacio arriba del enlace */
+   text-align: left; /* Alinea el enlace a la izquierda */
+}
+
+.volver-inicio a {
+    color: #00ccff; /* Color del enlace */
+
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Texto en negrita */
+    display: inline-block; /* Permite añadir padding */
+    padding: 8px 12px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo ligeramente transparente */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.volver-inicio a:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo más oscuro al pasar el ratón */
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.volver-inicio i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+
+}
+
+
+#map-container {
+    display: none;
+    margin-top: 10px;
+}
+#toggle-map:checked ~ #map-container {
+    display: block;
+}
+.location-label {
+    cursor: pointer;
 }
