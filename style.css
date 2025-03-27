@@ -193,8 +193,44 @@ li i {
     cursor: pointer;
 }
 .small-logo {
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     display: block; /* Elimina el espacio sobrante */
     margin: 0 auto; /* Centra la imagen */
 }
+
+/* Estilo para el contenedor de información del ponente */
+.ponente-info {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px;
+}
+
+/* Estilo para la foto del ponente */
+.ponente-foto {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px; /* Asegura que sea cuadrada */
+    object-fit: cover; /* Recorta la imagen si es necesario */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid #ccc; /* Añade un borde */
+}
+
+/* Estilo para el enlace de LinkedIn */
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0077b5; /* Color oficial de LinkedIn */
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+    color: #005582; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el icono de LinkedIn */
+.linkedin-link .fab {
