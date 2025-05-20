@@ -297,3 +297,11 @@ li i {
     margin-right: 8px; /* Espacio entre el icono y el texto */
     font-size: 18px;
 }
+/* Estilo para la sección de presentaciones */
+.presentaciones {
+    color: #fff; /* Blanco puro para máximo contraste */
+    font-weight: bold; /* Hace la letra más gruesa */
+    background: rgba(0,0,0,0.2); /* Opcional: fondo sutil para resaltar */
+    padding: 8px 0; /* Opcional: espacio vertical */
+    border-radius: 6px; /* Opcional: bordes redondeados */
+}
