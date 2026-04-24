@@ -195,7 +195,8 @@ li i {
 .ficha-link {  /* Estilo para el enlace del tema */
     color: #00b3e6; /* Color del enlace */
     text-decoration: none; /* Elimina el subrayado */
-    font-size: 0.9em; /* Tamaño de la letra */
+    /*font-size: 0.9em; /* Tamaño de la letra */
+    font-size: 1,7em; /* Tamaño de la letra */
     margin-left: 10px; /* Espacio entre el tema y el enlace */
 }
 
