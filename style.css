@@ -148,6 +148,14 @@ li i {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
+/* Estilo para los enlaces de fichas */
+.ficha-link {
+    display: block; /* Hace que el enlace ocupe toda la línea */
+    width: 100%; /* Ancho al 100% del contenedor */
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del padre */
+}
+
 /* Efecto al pasar el ratón por encima */
 .cta:hover, .cta:focus {
     background: #0099cc; /* Cambia el color de fondo al pasar el ratón */
