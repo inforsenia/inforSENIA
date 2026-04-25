@@ -193,16 +193,16 @@ li i {
 }
 
 .ficha-link {  /* Estilo para el enlace del tema */
-    color: #00b3e6; /* Color del enlace */
+    display: block; /* Hace que ocupe todo el espacio disponible */
+    width: 100%; /* Ancho completo */
+    color: inherit; /* Hereda el color del li */
     text-decoration: none; /* Elimina el subrayado */
-    /*font-size: 0.9em; /* Tamaño de la letra */
-    font-size: 1,7em; /* Tamaño de la letra */
-    margin-left: 10px; /* Espacio entre el tema y el enlace */
+    font-size: 1.1em; /* Tamaño de la letra */
 }
 
 .ficha-link:hover { /* Efecto al pasar el ratón por encima */
-    color: #00ccff; /* Cambia el color del enlace al pasar el ratón */
-    text-decoration: underline; /* Subrayado al pasar el ratón */
+    color: inherit; /* Mantiene el color heredado */
+    text-decoration: none; /* No subraya */
 }
 .objetivo, .resumen, .nivel, .conocimientos, .audiencia, .duracion, .infraestructura, .mini-bio { /* Estilo para los textos de la ficha */
     margin-bottom: 10px; /* Espacio abajo del texto */
